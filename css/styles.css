@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(239, 239, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1a1a2e;
+    line-height: 1.7;
+    padding: 2rem 1rem;
+}
+
+h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.02em;
+    border-bottom: 2px solid #7b7bbd;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+}
+
+h2 a {
+    color: #3d3d8f;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+    color: #5555b5;
+}
+
+a>h2 {
+    color: #3d3d8f;
+}
+
+a>h2:hover {
+    color: #5555b5;
+    text-decoration: underline;
+}
+
+a {
+    color: #3d3d8f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    margin-top: 1.25rem;
+    margin-bottom: 0.35rem;
+    color: #4a4a7a;
+}
+
+p {
+    max-width: 70ch;
+    margin-bottom: 1rem;
+    font-size: clamp(0.95rem, 2vw, 1.05rem);
+}
+
+.project {
+    margin-bottom: 3rem;
+}
+
+main,
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1.25rem 0.75rem;
+    }
+
+    h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    h2 {
+        margin-top: 2rem;
+    }
+}

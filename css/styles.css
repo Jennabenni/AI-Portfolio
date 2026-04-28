@@ -4,6 +4,37 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+}
+
+.bigBox {
+    border: solid 5px rgb(31, 23, 139);
+    /*
+    border-right: solid 10px rgb(52, 37, 255);
+
+
+    border-top: none;
+    border-left: none;
+    border-bottom: none;*/
+    border-style: dotted;
+    padding: 20px;
+}
+
+.itemCards {
+    border: solid 2px rgb(0, 195, 255);
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+.headshot {
+    border-radius: 50%;
+    height: 200px;
 }
 
 body {
@@ -12,6 +43,7 @@ body {
     color: #1a1a2e;
     line-height: 1.7;
     padding: 2rem 1rem;
+
 }
 
 h1 {
@@ -27,36 +59,28 @@ h2 {
     font-size: clamp(1.25rem, 3vw, 1.75rem);
     margin-top: 2.5rem;
     margin-bottom: 0.5rem;
-    text-decoration: underline;
+
 }
 
 h2 a {
-    color: #3d3d8f;
+    color: #000000;
     text-decoration: none;
+    background-color: white;
+    border: solid 1px rgb(11, 11, 45);
+    border-radius: 25px;
+    padding: 20px;
+
+
 }
 
 h2 a:hover {
-    text-decoration: underline;
-    color: #5555b5;
-}
-
-a>h2 {
-    color: #3d3d8f;
-}
-
-a>h2:hover {
-    color: #5555b5;
-    text-decoration: underline;
-}
-
-a {
-    color: #3d3d8f;
     text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(47, 19, 71);
+
 }
 
-a:hover {
-    text-decoration: underline;
-}
+
 
 h3 {
     font-size: clamp(1rem, 2.5vw, 1.2rem);

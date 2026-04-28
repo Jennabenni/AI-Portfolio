@@ -3,7 +3,7 @@ in the DIG4503C Low and No Code class.  The Claude agent from Anthropic
 was used as an assistant in coding the different websites utilizing APIs, MCP servers,
 React components, and more.
 
-To see websites and details, please see portfolio.html.
+To see websites and details, please see index.html.
 
 Featured Projects:
 

@@ -117,4 +117,9 @@ main,
     h2 {
         margin-top: 2rem;
     }
+
+    img {
+    height: auto;
+    width: auto;
+}
 }
